@@ -5,6 +5,7 @@ description = "Create new playlists by selecting random songs from existing Spot
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "argparse>=1.4.0",
     "dotenv>=0.9.9",
     "spotipy>=2.26.0",
 ]
