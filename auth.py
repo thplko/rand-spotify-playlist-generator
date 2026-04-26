@@ -16,6 +16,5 @@ def auth_client():
                                         client_secret = CLIENT_SECRET,
                                         redirect_uri = REDIRECT_URI,
                                         scope = SCOPE)
-    authenticated_client = spotipy.Spotify(auth_manager = authentication_manager)
 
-    return authenticated_client
+    return spotipy.Spotify(auth_manager = authentication_manager)
