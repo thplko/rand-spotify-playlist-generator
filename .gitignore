@@ -3,3 +3,7 @@
 .cache
 __pycache__/
 uv.lock
+..env.example.un~
+.env.example~
+..gitignore.un~
+.gitignore~
