@@ -43,10 +43,10 @@ To list all the tracks in an indicated Spotify playlist, where `pid` is the ID o
 ### Creating New Playlist from Existing Playlists
 To create a new Spotify playlist of songs from existing Spotify playlists in an indicated Spotify, where `pid` is the ID of the Spotify playlist(s), `lim` is the number of songs selected from the indicated playlist(s), `ofs` is the number of songs skipped in the indicated playlist(s), run the following command:
 - Running in Python
-  `python main.py --playlist-ids pid --limit lim --offset os`
+  `python main.py --playlist-ids pid --limit lim --offset ofs`
 - Running in uv
-  `uv  main.py --playlist-ids pid --limit lim --offset os`
-If you want to randomize the song selection from the playlist, add `--shuffle True` to the command.
+  `uv  main.py --playlist-ids pid --limit lim --offset ofs`
+By default, the song selection when creating the playlist is randomized, hence `--shuffle True` does not have to be added to the command. If you do NOT want to randomize the song selection from the playlist, add `--shuffle False` to the command.
 
 ## Contributions
 All contributions are welcome! If you like this project, consider leaving a star.
