@@ -1,14 +1,11 @@
 # Random Spotify Playlist Generator
----
 Python program which allows you to create random Spotify playlists from existing created playlists in your Spotify account. The tool also allows you to view all your Spotify playlists from your Spotify library.
 
 ## Installation
----
 Clone the Git repository onto your local machine. The program is run in the terminal and can be run using Python or [uv](https://docs.astral.sh/uv/guides/tools/#requesting-different-sources).
 All commands are executed in the root of the project and all files are created in the root of the project. Note that the root of the project refers to the directory that the configuration file `pyproject.toml` is in.
 
 ## Configuration
----
 ### File with environmental variables (.env)
 1. Go to [Spotify for Developers](https://developer.spotify.com/dashboard) and create a new application.
 2. Note the Client ID and Client Secret.
@@ -29,7 +26,6 @@ All commands are executed in the root of the project and all files are created i
 - `--shuffle`: Spotify playlist is shuffled upon selection.
 
 ## Usage
----
 ### Listing Playlists
 To list all your Spotify playlists in your Spotify library, run the following command:
 - Running in Python
@@ -53,7 +49,6 @@ To create a new Spotify playlist of songs from existing Spotify playlists in an 
 If you want to randomize the song selection from the playlist, add `--shuffle True` to the command.
 
 ## Contributions
----
 All contributions are welcome! If you like this project, consider leaving a star.
 
 ## License
