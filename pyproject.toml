@@ -3,6 +3,7 @@ name = "rand-spotify-playlist-generator"
 version = "0.1.0"
 description = "Create new playlists by selecting random songs from existing Spotify playlists"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.13"
 dependencies = [
     "argparse>=1.4.0",
@@ -10,4 +11,3 @@ dependencies = [
     "spotipy>=2.26.0",
 ]
 
-authors = {name = "Huy Hong", email = "kevinhong.nl@gmail.com"}
