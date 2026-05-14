@@ -11,10 +11,10 @@ All commands are executed in the root of the project and all files are created i
 2. Note the Client ID and Client Secret.
 3. Click "Edit Settings" and add `http://localhost:4070/callback` to Redirect URIs, where `localhost` is your local IP address.
 4. Create a `.env` file in the project root with:
-   CLIENT_ID = your_client_id_here
-   CLIENT_SECRET = your_client_secret_here
-   REDIRECT_URI = http://localhost:4070/callback
-   SCOPE = playlist-read-private playlist-modify-private
+   - CLIENT_ID = your_client_id_here
+   - CLIENT_SECRET = your_client_secret_here
+   - REDIRECT_URI = http://localhost:4070/callback
+   - SCOPE = playlist-read-private playlist-modify-private
   - Note that the scope parameters allow you to read and modify your Spotify private playlists.
 
 ### Parsed Arguments
