@@ -38,8 +38,6 @@ def main():
         print("The default offset used is 0.")
     if not args.shuffle:
         print("The playlist is not shuffled.")
-    if not args.no_shuffle:
-        print("The playlist is shuffled.")
 
     # Begin song selection
     print(f"Selecting songs...")

@@ -17,4 +17,4 @@ def auth_client():
                                         redirect_uri = REDIRECT_URI,
                                         scope = SCOPE)
 
-    return spotipy.Spotify(auth_manager = authentication_manager)
+    return spotipy.Spotify(auth_manager = authentication_manager, requests_timeout = (5, 60))

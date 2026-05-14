@@ -41,11 +41,4 @@ def parse_arguments():
         default = True,
         help = "Spotify playlist is shuffled."
     )
-    parser.add_argument(
-        "--no-shuffle",
-        dest = "shuffle",
-        action = "store_false",
-        help = "Spotify playlist is not shuffled."
-    )
-
     return parser.parse_args()

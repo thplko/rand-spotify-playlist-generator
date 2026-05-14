@@ -1,4 +1,5 @@
 import random as rand
+import time
 from typing import List, Dict
 from spotipy.client import Spotify    
 
@@ -28,6 +29,7 @@ def get_tracks(client: Spotify, playlist_id: str, lim: int, offset: int, shuffle
             limit = min(100, lim - num_fetched), 
             offset = offset
         )
+        time.sleep(0.1)
         for item in results['items']:
             # Checks if the track (and a URI) exists
             if item and item.get('track') and item['track'].get('uri'):
