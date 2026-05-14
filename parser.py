@@ -17,7 +17,7 @@ def parse_arguments():
     parser.add_argument(
         "--limit", 
         type = int,
-        help = "Number of songs taken from selected playlists."
+        help = "Number of songs selected from indicated playlists."
     )
     parser.add_argument(
         "--offset", 
